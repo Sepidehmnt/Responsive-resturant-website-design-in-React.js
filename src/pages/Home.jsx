@@ -6,6 +6,7 @@ import PopularMenu from "../components/popular-menu/PopularMenu";
 import ChooseUs from "../components/choose-us/ChooseUs";
 import MenuPack from "../components/menu-pack/MenuPack";
 import Testimonials from "../components/testimonials/Testimonials";
+import Download from "../components/download-section/Download";
 const Home = () => {
   return (
     <Fragment>
@@ -15,6 +16,7 @@ const Home = () => {
       <ChooseUs />
       <MenuPack />
       <Testimonials />
+      <Download />
     </Fragment>
   );
 };
