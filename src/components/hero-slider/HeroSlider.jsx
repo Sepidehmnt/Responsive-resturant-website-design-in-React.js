@@ -1,5 +1,6 @@
 import React from "react";
 import "./slider.css";
+
 import { Container } from "reactstrap";
 import Slider from "react-slick";
 

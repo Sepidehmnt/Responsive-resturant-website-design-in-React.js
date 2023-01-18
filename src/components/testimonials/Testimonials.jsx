@@ -19,10 +19,10 @@ const Testimonials = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="8" className="m-auto">
+          <Col lg="8" sm="12" md="12" className="m-auto">
             <div className="slider__wrapper d-flex align-items-center gap-5">
               <div className="slider__content w-50">
-                <h2 className="mb-4">What our customers are saying</h2>
+                <h2 className="mb-4 ps-3">What our customers are saying</h2>
                 <Slider {...settings}>
                   <div>
                     <div className="single__testimonial">
